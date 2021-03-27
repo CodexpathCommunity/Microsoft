@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+.header--container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header--logo {
+  height: 25px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.header--links {
+  display: flex;
+  flex: 1;
+}
+.header--links h5 {
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.header--links h5:hover {
+  border-bottom: 1px solid rgb(1, 36, 1);
+}
+.heading--Tag {
+  display: flex;
+  align-items: center;
+}
+.heading--Tag h5 {
+  font-size: 14px;
+  font-weight: 100;
+  margin-right: 5px;
+}
+.heading--Tag {
+  font-size: 18px;
+  font-weight: 400;
+}
+.icon--container {
+  margin-left: 5px;
+}
+.icon {
+  font-size: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+}
